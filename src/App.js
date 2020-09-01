@@ -1,6 +1,5 @@
 import React, {Component} from 'react';
 import { Switch, Route, Redirect } from 'react-router-dom';
-import './App.css';
 import Homepage from "./pages/homepage/homepage.component";
 import ShopPage from "./pages/shop/shop.components";
 import Header from "./components/header/header.component";
@@ -11,6 +10,7 @@ import { connect } from "react-redux";
 import { setCurrentUser } from "./redux/user/user.actions"
 import { selectCurrentUser} from "./redux/user/user.selector";
 import {createStructuredSelector} from "reselect";
+import './App.css';
 
 
 class App extends Component {
