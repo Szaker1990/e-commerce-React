@@ -14,7 +14,7 @@ const CheckoutItem = ({cartItem, clearItem, addItem, removeItem}) => {
             </ImageContainer>
             <NameSpan>{name}</NameSpan>
             <QuantitySpan>
-                <ArrowContainer className={"arrow"} onClick={() => removeItem(cartItem)}>&#10094;</ArrowContainer>
+                <ArrowContainer onClick={() => removeItem(cartItem)}>&#10094;</ArrowContainer>
                 <ValueSpan>
                     {quantity}
                 </ValueSpan>
