@@ -3,7 +3,7 @@ import styled, { css } from 'styled-components';
 const buttonStyles = css`
   background-color: black;
   color: white;
-  border: 1px solid transparent;
+  border: none;
 
   &:hover {
     background-color: white;
@@ -11,23 +11,26 @@ const buttonStyles = css`
     border: 1px solid black;
   }
 `;
+
 const invertedButtonStyles = css`
   background-color: white;
   color: black;
+  border: 1px solid black;
 
   &:hover {
     background-color: black;
     color: white;
-   
+    border: none;
   }
 `;
+
 const googleSignInStyles = css`
   background-color: #4285f4;
   color: white;
 
   &:hover {
-    background-color: white;
-    color: #4285f4;
+    background-color: #357ae8;
+    border: none;
   }
 `;
 
@@ -40,7 +43,6 @@ const getButtonStyles = props => {
 };
 
 export const CustomButtonContainer = styled.button`
-  box-sizing: border-box;
   min-width: 165px;
   width: auto;
   height: 50px;
