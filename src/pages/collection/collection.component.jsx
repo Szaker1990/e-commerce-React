@@ -7,9 +7,9 @@ import {CollectionContainer, CollectionHeader, CollectionItems} from "./collecti
 const CollectionPage = ({collection}) => {
     const {title, items} = collection
     return (
-        <CollectionContainer className={"collection-page"}>
-            <CollectionHeader className={"title"}>{title}</CollectionHeader>
-            <CollectionItems className={"items"}>
+        <CollectionContainer>
+            <CollectionHeader>{title}</CollectionHeader>
+            <CollectionItems>
                 {
                     items.map(item => <CollectionItem key={item.id} item={item}/>)
                 }
