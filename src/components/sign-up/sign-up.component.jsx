@@ -4,7 +4,7 @@ import CustomButton from "../custom-button/custom-button.component";
 import { auth, createUserProfileDocument} from "../../firebase/firebase.utils";
 import {SignUpContainer, SignUpTitle} from "./sign-up.style";
 
-class Signup extends Component {
+class SignUp extends Component {
     constructor() {
         super();
 
@@ -81,4 +81,4 @@ class Signup extends Component {
         )
     }
 }
-export default Signup
+export default SignUp
