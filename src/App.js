@@ -10,7 +10,7 @@ import { connect } from "react-redux";
 import { setCurrentUser } from "./redux/user/user.actions"
 import { selectCurrentUser} from "./redux/user/user.selector";
 import {createStructuredSelector} from "reselect";
-import './App.css';
+import {  GlobalStyle} from "./global.style";
 
 
 class App extends Component {
@@ -43,6 +43,7 @@ class App extends Component {
     render() {
         return (
             <div>
+                <GlobalStyle/>
                 <Header/>
                 <Switch>
                     <Route exact path="/" component={Homepage}/>
