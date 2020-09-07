@@ -1,2 +1,25 @@
-Project still in progress . Only full screen version
-Live Demo without RWD [Click Here](https://szaker-clothing.herokuapp.com/).
+## E-Commerce React App
+
+Live Demo   [Click Here](https://szaker-clothing.herokuapp.com/).
+
+## Technologies
+
+- React
+- Redux
+- React Router
+- Firebase Auth
+- Firebase Firestore
+- Styled Components
+- Local Storage by Redux Persist
+- React-create-app
+- Stripe for Payments
+- NPM
+
+
+## How to run? 
+
+### `https://github.com/Szaker1990/e-commerce-React.git`
+### `npm install`
+### `npm start`
+`
+```
