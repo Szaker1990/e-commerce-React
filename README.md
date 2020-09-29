@@ -1,6 +1,6 @@
 ## E-Commerce React App
 
-Live Demo   [Click Here](https://szaker-clothing.herokuapp.com/).
+Live Demo [Click Here](https://szaker-clothing.herokuapp.com/).
 
 ## Technologies
 
@@ -18,8 +18,6 @@ Live Demo   [Click Here](https://szaker-clothing.herokuapp.com/).
 
 ## How to run? 
 
-### `https://github.com/Szaker1990/e-commerce-React.git`
-### `npm install`
-### `npm start`
-`
-```
+#### `git clone https://github.com/Szaker1990/e-commerce-React.git`
+#### `npm install`
+#### `npm start`

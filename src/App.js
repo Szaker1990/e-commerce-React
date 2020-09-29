@@ -11,6 +11,7 @@ import { setCurrentUser } from "./redux/user/user.actions"
 import { selectCurrentUser} from "./redux/user/user.selector";
 import {createStructuredSelector} from "reselect";
 import {  GlobalStyle} from "./global.style";
+import {Contact} from "./components/contact/contact.component";
 
 
 class App extends Component {
@@ -49,6 +50,7 @@ class App extends Component {
                     <Route exact path="/" component={Homepage}/>
                     <Route path={"/shop"} component={ShopPage}/>
                     <Route exact path={"/checkout"} component={CheckoutPage} />
+                    <Route path={"/contact"} component={Contact}/>
                     <Route
                         exact
                         path='/signin'
@@ -68,7 +70,6 @@ class App extends Component {
 }
 const mapStateToProps = createStructuredSelector({
     currentUser: selectCurrentUser,
-    // collectionsArray: selectCollectionsForPreview,
 })
 
 const mapDispatchToProps = dispatch => ({
