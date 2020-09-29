@@ -27,7 +27,9 @@ export const Contact = () => {
         <ContactContainer>
             <ContactHeader>Możesz nas znaleść tutaj</ContactHeader>
             <WrappedMap
-                googleMapURL={"https://maps.googleapis.com/maps/api/js?v=3.exp&libraries=geometry,drawing,places"}
+                googleMapURL={`https://maps.googleapis.com/maps/api/js?v=3.exp&libraries=geometry,drawing,places&key=${
+                    process.env.REACT_APP_GOOGLE_KEY
+                }`}
                 loadingElement={<div style={{height: `100%`, width: '100%'}}/>}
                 containerElement={<div style={{height: `400px`, width: '50%'}}/>}
                 mapElement={<div style={{height: `100%`, width: '100%'}}/>}
@@ -50,7 +52,7 @@ export const Contact = () => {
                     </FormInputBox>
                     <TextAreaContainer>
                         <label>Twoja Wiadomość</label>
-                        <TextAreaComponent value={contactData.message}
+                        <TextAreaComponent
                                            name={"message"}
                                            placeholder={"Miejsce na Twoja wiadomość"}
                                            handleChange={handleChange}/>
