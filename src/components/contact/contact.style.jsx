@@ -10,3 +10,28 @@ export const ContactContainer = styled.div`
   justify-content: center;
   align-items: center;  
 `
+export const FormInputBox = styled.div`
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+`
+export const Form = styled.form`
+  display: flex;
+  flex-direction: column;
+  width: 60%;
+  margin: 30px auto;
+`
+export const TextAreaContainer = styled.div`
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+  width: 100%;
+  margin-bottom: 30px;
+`
+export const TextAreaComponent = styled.textarea`
+  width: 50%;
+  height: 50px;
+  resize: none;
+  font-family: 'Open Sans Condensed',sans-serif;
+`
