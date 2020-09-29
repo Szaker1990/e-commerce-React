@@ -20,6 +20,7 @@ export const Form = styled.form`
   flex-direction: column;
   width: 60%;
   margin: 30px auto;
+  justify-content: center;
 `
 export const TextAreaContainer = styled.div`
   display: flex;
@@ -27,6 +28,7 @@ export const TextAreaContainer = styled.div`
   align-items: center;
   flex-direction: column;
   width: 100%;
+  height: 100px;
   margin-bottom: 30px;
 `
 export const TextAreaComponent = styled.textarea`

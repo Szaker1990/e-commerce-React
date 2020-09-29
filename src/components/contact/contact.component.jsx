@@ -55,7 +55,7 @@ export const Contact = () => {
                                            placeholder={"Miejsce na Twoja wiadomość"}
                                            handleChange={handleChange}/>
                     </TextAreaContainer>
-                <CustomButtonContainer>Wyślij wiadomość</CustomButtonContainer>
+                <CustomButtonContainer style={{width: "300px",alignSelf: "center"}}>Wyślij wiadomość</CustomButtonContainer>
             </Form>
         </ContactContainer>
     )
