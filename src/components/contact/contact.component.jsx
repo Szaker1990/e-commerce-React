@@ -25,7 +25,7 @@ export const Contact = () => {
 
     return (
         <ContactContainer>
-            <ContactHeader>Możesz nas znaleść tutaj</ContactHeader>
+            <ContactHeader>You can find us here</ContactHeader>
             <WrappedMap
                 googleMapURL={`https://maps.googleapis.com/maps/api/js?v=3.exp&libraries=geometry,drawing,places&key=${
                     process.env.REACT_APP_GOOGLE_KEY
@@ -34,7 +34,7 @@ export const Contact = () => {
                 containerElement={<div style={{height: `400px`, width: '50%'}}/>}
                 mapElement={<div style={{height: `100%`, width: '100%'}}/>}
             />
-            <ContactHeader>Lub skontaktuj sie z nami poprzez formularz</ContactHeader>
+            <ContactHeader>Contact us via email</ContactHeader>
             <Form>
                     <FormInputBox>
                             <FormInput
