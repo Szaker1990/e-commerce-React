@@ -33,7 +33,7 @@ export const TextAreaContainer = styled.div`
 `
 export const TextAreaComponent = styled.textarea`
   width: 50%;
-  height: 50px;
+  height: 80px;
   resize: none;
   font-family: 'Open Sans Condensed',sans-serif;
 `
